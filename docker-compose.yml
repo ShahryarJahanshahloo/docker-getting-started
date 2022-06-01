@@ -1,0 +1,16 @@
+version: '3'
+services:
+  backend:
+    build:
+      context: ./backend
+      # dockerfile: dockerfile
+  frontend:
+    build:
+      context: ./frontend
+      # dockerfile: dockerfile
+  nginx:
+    image: imageName
+  mongodb:
+    image: imageName
+  redis:
+    image: imageName
